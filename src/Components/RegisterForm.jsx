@@ -36,7 +36,7 @@ const RegistrationForm = () => {
     //   alert('Registration failed');
     // }
 
-    let result = await fetch("https://dms-todo-back-end.vercel.app/api/register", {
+    let result = await fetch("frequent-research-project.vercel.app/register", {
       method: "post",
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ user })
