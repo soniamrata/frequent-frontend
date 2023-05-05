@@ -1,0 +1,52 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+
+}
+
+form {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 30px 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.412);
+    -webkit-box-shadow: -2px -1px 15px 7px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: -3px -2px 30px 14px rgba(0, 0, 0, 0.425);
+    box-shadow: -4px -3px 45px 21px rgba(0, 0, 0, 0.35);
+
+}
+
+.gender {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.submit {
+    background-color: tomato;
+    padding: 5px 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.submit:hover {
+    background-color: red;
+    color: white;
+    padding: 6px 31px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
