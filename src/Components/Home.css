@@ -1,0 +1,54 @@
+.outerDiv {
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.innerDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 30px 80px;
+    background-color: rgba(255, 255, 255, 0.412);
+    -webkit-box-shadow: -2px -1px 15px 7px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: -3px -2px 30px 14px rgba(0, 0, 0, 0.425);
+    box-shadow: -4px -3px 45px 21px rgba(0, 0, 0, 0.35);
+    margin: 10px 50px;
+}
+
+.innerDiv:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 2px;
+}
+
+.inner {
+    margin: auto;
+}
+
+.innerDiv p {
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 30px 80px;
+    background-color: rgba(255, 255, 255, 0.412);
+    -webkit-box-shadow: -2px -1px 15px 7px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: -3px -2px 30px 14px rgba(0, 0, 0, 0.425);
+    box-shadow: -4px -3px 45px 21px rgba(0, 0, 0, 0.35);
+    margin: 10px 50px;
+}
+
+.h3:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 2px;
+}
